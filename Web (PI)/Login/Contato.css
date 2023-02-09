@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    background: linear-gradient(180deg, rgba(61, 1, 55, 0.87) 49.12%, rgb(60, 148, 45) 70.26%);
+}
+
+main{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    top:0px;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+.blocpreto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 715px;
+    height: 822px;
+    
+    background: rgba(0, 0, 0, 0.42);
+    border-radius: 30px;
+}
+
+.titulo{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 50px;
+    row-gap: 15px;
+    
+    width: 715px;
+    height: 822px;
+
+    color: #FFFFFF;
+    
+
+}
+
+.blocbranco{
+    display: flex;
+    align-items: center;
+
+    width: 494px;
+    height: 500px;
+
+    background: rgba(255, 255, 255, 0.55);
+    box-shadow: 3px 6px 6px 1px rgba(0, 0, 0, 0.45);
+    border-radius: 23px;
+
+}
+
+
+form{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width: 494px;
+    height: 400px;
+
+}
+
+.teste{
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+
+    width: 494px;
+}
+
+.teste input{
+    position: relative;
+
+    margin-top:20px;
+
+    width: 215px;
+}
+
+.box_mensagem{
+    height: 132px;
+}
+
+form .botao{
+    width: 220px;
+}
+
+input{
+    width: 444px;
+    height: 35px;
+}
+
+.botao{
+    position: relative;
+
+    color: #FFFFFF;
+    
+    font-family: 'M PLUS 2';
+    font-size: 20px;
+
+    cursor: pointer;
+
+    background: linear-gradient(91.26deg, #4ABD6A -1.08%, #3A93BD 89.71%, #002C60 113.6%);
+    border-radius: 30px;
+}
+
